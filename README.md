@@ -23,7 +23,7 @@ Instalación y uso
 
 Clona este repositorio:
 
-git clone https://github.com/tuusuario/frontend-store.git
+git clone https://github.com/ItsBrutt/FrontEndStore
 
 
 Abre el archivo index.html en tu navegador preferido.
@@ -34,8 +34,6 @@ Estructura del proyecto
 │   └── styles.css
 ├── /img
 │   └── (imágenes utilizadas)
-└── /js
-    └── (opcional si se agrega funcionalidad)
 
 Contribuciones
 
