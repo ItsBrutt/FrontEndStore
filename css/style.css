@@ -84,24 +84,44 @@ h3{
 .navegacion__enlace:hover{
     color: var(--secundario);
 }
+/** Grid **/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
 /** Productos **/
 .producto{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin: 4rem 0;
+    background-color: var(--primarioOscuro);
+    border-radius: 1rem;
+    padding: 2rem;
 }
 .producto__imagen{
     border-radius: 1rem;
+    width: 100%;
 }
 .producto__informacion{
     text-align: center;
 }   
 .producto__nombre{
-    font-size: 2.4rem;
-    margin: 1rem 0;
+    font-size: 4rem;
 }
 .producto__precio{
-    font-size: 2rem;
+    font-size: 2.8rem;
+    color: var(--secundario);
+}
+.producto__nombre,
+.producto__precio{
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
     margin: 1rem 0;
+    text-align: center;
+    line-height: 1.2
 }
