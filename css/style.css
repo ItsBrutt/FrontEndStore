@@ -153,13 +153,9 @@ h3{
 }
 @media (min-width: 768px) {
     .nosotros{
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-}
-}
-
-.nosotros__contenido{
-    margin-bottom: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
 }
 .nosotros__imagen{
     border-radius: 1rem;
